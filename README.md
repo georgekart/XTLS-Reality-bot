@@ -33,7 +33,7 @@
 ## Installation methods
 ### 1. Using `autoinstall.sh` script (recommended)
 ```bash
-wget https://raw.githubusercontent.com/PheeZz/XTLS-Reality-bot/main/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
+wget https://raw.githubusercontent.com/georgekart/XTLS-Reality-bot/main/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
 ```
 
 ### 2. Manual
@@ -47,7 +47,7 @@ systemctl start postgresql.service
 > python 3.11, pip, poetry
 ```bash
 sudo apt install -y software-properties-common
-add-sudo apt-repository ppa:deadsnakes/ppa
+sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install -y python3.11 python3.11-dev python3.11-distutils python3.11-venv
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -184,7 +184,7 @@ ALTER USER <user_name> WITH SUPERUSER;
 
 #### 2.5 Clone this repo
 ```bash
-git clone https://github.com/PheeZz/XTLS-Reality-bot.git
+git clone https://github.com/georgekart/XTLS-Reality-bot.git
 ```
 
 #### 2.6 Create venv and install python dependencies
